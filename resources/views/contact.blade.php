@@ -19,7 +19,7 @@
     <h2>{{$task }}</h2>
     <h3>{{$contact}}</h3>
 
-
+    <p> Return to the home page <a href="{{ route('home') }}">Home</a>?</p>
 </body>
 
 </html>

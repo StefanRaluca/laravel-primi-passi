@@ -23,6 +23,7 @@
     <h2>{{$message }}</h2>
     <h3>{{$about}}</h3>
 
+    <p> Return to the home page <a href="{{ route('home') }}">Home</a>?</p>
 </body>
 
 </html>
