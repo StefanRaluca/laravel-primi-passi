@@ -18,5 +18,5 @@ Route::get('/', function () {
         'title' => 'Hello on my page',
         'message' => 'Hello you are in',
     ];
-    return view('welcome', $data);
+    return view('home', $data);
 });
