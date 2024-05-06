@@ -16,9 +16,8 @@
 
 <body class="antialiased">
 
-
-
-    <!--  <h1>Hello World </h1> -->
+    <h2>{{$task }}</h2>
+    <h3>{{$contact}}</h3>
 
 
 </body>

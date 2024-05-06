@@ -28,7 +28,10 @@ Route::get('/about', function () {
     return view('about', $data);
 })->name("about");
 Route::get('/contact', function () {
-
-    return view('contact');
+    $data = [
+        'task' => 'Do you are interested?',
+        'contact' => 'Call us!',
+    ];
+    return view('contact', $data);
 
 })->name("contact");
