@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $data = [
+        'title' => 'Hello on my page',
+        'message' => 'Hello you are in',
+    ];
+    return view('welcome', $data);
 });
